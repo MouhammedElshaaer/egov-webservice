@@ -29,4 +29,8 @@ The system actually can be partitioned into 3 parts, Adding and configuring syst
 
 Since we invest our time in the problem definition and designing a general system for different types of legal papers, it took us a lot of time to do so, it's a 70 relation or like so ERD document, so yes, it took so much time. Hence, the implementation phase included almost 70% of the first functional part discussed before, the system configuration part, almost 50% of the requests issuing part, and 20% of the request tracking and monitoring part. We haven't invested so much time in user interface design.
 
+## Technology stack
+* Laravel 5.7 and MySql DBMS for the backend.
+* Angular 7 for the frontend web application.
+
 #### This is the backend repo, the web Angular frontend repo is [here](https://github.com/MouhammedElshaaer/autogov-front-end)
