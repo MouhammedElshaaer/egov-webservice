@@ -1,4 +1,4 @@
-# Graduation project
+# E-Gov | Graduation project
 
 ## Project idea
 
