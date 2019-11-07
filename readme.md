@@ -33,4 +33,4 @@ Since we invest our time in the problem definition and designing a general syste
 * Laravel 5.7 and MySql DBMS for the backend.
 * Angular 7 for the frontend web application.
 
-#### This is the backend repo, the web Angular frontend repo is [here](https://github.com/MouhammedElshaaer/autogov-front-end)
+#### This is the backend repo, the web Angular frontend repo is [here](https://github.com/MouhammedElshaaer/egov-front-end)
