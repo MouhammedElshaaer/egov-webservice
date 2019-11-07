@@ -1,71 +1,30 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+# Graduation project
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+## Project idea
 
-## About Laravel
+* It’s a business process automation and performance enhancement that works on making it fast, effective and efficient.
+* This process is the governmental legal paper affairs. That it is, it’s a business process management and development domain.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Problem significance
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+* The problem is the inefficiency and repetition in the different process stages. This is due to bottlenecks that exist because of human resources dependencies, for example, there is only one person who do specific task in the process who may slow down the whole process, worse than that is the nontransparent process that does not allow to figure out where does the problem or the bottlenecks are, so this solution will bring up this process automation, transparency, and efficiency that will make it fast and easy for bottlenecks discovery.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## System basic functional requirements
 
-## Learning Laravel
+The system actually can be partitioned into 3 parts, Adding and configuring system settings, issuing requests, and requests tracking and monitoring.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+* ### Configuring system settings
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1100 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost you and your team's skills by digging into our comprehensive video library.
+    First of all, this part is for managing system users and privileges and groups. Then, transaction types are created and associating each with the required ordered steps, fees, and documents. Since most of the transactions are based on addresses, so that address structuring is well designed to be maintainable and effectively searchable. Also, every transaction is access controlled by the access control manager and user groups to specify who can do what.
 
-## Laravel Sponsors
+* ### Issuing requests
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+    After configuring the system, now the system is ready to be used for issuing different types of requests. Employees can start the request and following the required steps, documents and fees specified while configuring the transactions, clients can easily issue any legal paper or license.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
+* ### Request tracking and monitoring
 
-## Contributing
+    Clients can track requests via mobile app step by step and see status descriptions. Employees can monitor the request for any bottlenecks via dashboards to prevent any possible delays.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## What is actually implemented
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Since we invest our time in the problem definition and designing a general system for different types of legal papers, it took us a lot of time to do so, it's a 70 relation or like so ERD document, so yes, it took so much time. Hence, the implementation phase included almost 70% of the first functional part discussed before, the system configuration part, almost 50% of the requests issuing part, and 20% of the request tracking and monitoring part. We haven't invested so much time in user interface design.
